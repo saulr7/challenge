@@ -1,0 +1,31 @@
+@media only screen and (min-width: 992px) {
+  body {
+    /* background-color: rgb(202, 201, 201); */
+  }
+
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-links {
+    transition: width 2s;
+    transition-duration: 2s;
+    display: inline;
+  }
+  .nav-bar {
+    display: inline;
+  }
+
+  #btn-menu {
+    display: none;
+  }
+  #menu-items {
+    display: initial;
+  }
+
+  #txtSearch {
+    width: initial;
+  }
+}
