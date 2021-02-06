@@ -24,10 +24,17 @@ body {
 .nav-link {
   text-decoration: none;
   color: #a4a5ad;
-  font: 1.2em sans-serif;
-  border: 1px soli;
-  font-family: "Courier New", Courier, monospace;
-  font-weight: bold;
+  font-size: 1.2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+.bread-srcumb {
+  text-decoration: none;
+  color: #a4a5ad;
+  font-size: 0.85em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
 }
 
 .d-inline {
@@ -41,6 +48,9 @@ body {
 #txtSearch {
   font-size: 1rem;
   width: 85%;
+}
+#txtSearch:focus-visible {
+  border: 0px !important;
 }
 
 .border-0 {
@@ -66,8 +76,12 @@ body {
   margin-top: 1.5rem;
 }
 .mx-1 {
-  margin-left: 0.6rem;
-  margin-right: 0.6rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.mx-2 {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 .my-1 {
   margin-left: 0.8rem;
@@ -95,10 +109,14 @@ body {
   color: rgb(97, 9, 179);
 }
 
+.text-secondary {
+  color: #a4a5ad;
+}
+
 #img-profile {
   width: 40px;
-  padding-left: 10px;
-  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   border-radius: 6px;
 }
 
