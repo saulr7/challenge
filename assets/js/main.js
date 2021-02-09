@@ -7,3 +7,13 @@ function toggleMenuItems()
     else
         menu.style.display = "grid"
 }
+
+function show_image(imgSource)
+{
+    let imgMain = document.querySelector("#main-img")
+
+    const url = "./assets/img/"+imgSource
+
+    imgMain.src = url
+
+}

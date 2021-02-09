@@ -24,4 +24,12 @@
   #txtSearch {
     width: initial;
   }
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .corrousel {
+    order: -1;
+  }
 }
